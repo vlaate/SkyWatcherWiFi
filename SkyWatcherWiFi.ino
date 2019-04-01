@@ -113,7 +113,7 @@ void loop()
         logger->print("From Serial: ");
         logger->println(data);
 
-        if (data == 61) // if the character that arrived is the character "=", it marks the beginning of the actual mount response, so we stop ignoring the data
+        if (data == 61 || data == 33) // if the character that arrived is the character "=" or "!", it marks the beginning of the actual mount response, so we stop ignoring the data
         {
           ignore = false;
         }
