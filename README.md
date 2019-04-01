@@ -28,7 +28,7 @@ Also, remember that after you install a voltage regulator to power the device fr
 
 The order of the RJ-11 pins from top to bottom corresponds to linear order of the bare copper contacts in the actual connector (the ones that will touch the RJ11 cable). Please double check that you have the pin order right, before building anything, measure the voltage between the VCC and GND pins to make sure you get **positive** 12V, as an iondicator that you indeed have the correct pins for VCC and GND, and that you got the pin order right. If you don't get positive ~12V, you probably have the pin order wrong.
 
-You can probably get the parts for under USD$10, but you do ned to be an arduino enthusiast of sorts, in order to use the Arduno IDE to to upload the project's software (see the [SkyWatcherWiFi.ino](https://github.com/vlaate/SkyWatcherWiFi/blob/master/SkyWatcherWiFi.ino) file) to the the NodeMCU ESP8266 microcontroller.
+You can probably get the parts for under USD$10, but you do need to be an arduino enthusiast of sorts, in order to use the Arduno IDE to to upload the project's software (see the [SkyWatcherWiFi.ino](https://github.com/vlaate/SkyWatcherWiFi/blob/master/SkyWatcherWiFi.ino) file) to the the NodeMCU ESP8266 microcontroller.
 
 ## Circuit
 
