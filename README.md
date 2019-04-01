@@ -17,7 +17,7 @@ Goto works, including star alignment, tracking, etc. One thing that did not work
 ## Parts List
 
 * A Voltage regulator / Power Supply
-* A NodeMCU ESP8266 development board (I used is [this one](https://www.amazon.com/gp/product/B010O1G1ES) )
+* A NodeMCU ESP8266 development board (I used is [this one](https://www.amazon.com/gp/product/B010O1G1ES))
 * Three resistors (100 Ohm each). 
 
 Although the NodeMCU already comes with an internal Voltage regulator, in many models it does not support input voltages over 10V. For this reason, it's safer (to avoid damaging the NodeMCU) to use an external regulator to drop the VCC voltage from the mount (~12V) down to 5V (the typical Vin voltage the NodeMCU gets from the USB cable).
@@ -28,7 +28,7 @@ Also, remember that after you install a voltage regulator to power the device fr
 
 The order of the RJ-11 pins from top to bottom corresponds to linear order of the bare copper contacts in the actual connector (the ones that will touch the RJ11 cable). Please double check that you have the pin order right, before building anything, measure the voltage between the VCC and GND pins to make sure you get **positive** 12V, as an iondicator that you indeed have the correct pins for VCC and GND, and that you got the pin order right. If you don't get positive ~12V, you probably have the pin order wrong.
 
-You can probably get the parts for under USD$10, but you do ned to be an arduino enthusiast of sorts, in order to use the Arduno IDE to to upload the project's software (see the file SkyWatcherWiFi.ino) to the the NodeMCU ESP8266 microcontroller.
+You can probably get the parts for under USD$10, but you do ned to be an arduino enthusiast of sorts, in order to use the Arduno IDE to to upload the project's software (see the [SkyWatcherWiFi.ino](https://github.com/vlaate/SkyWatcherWiFi/blob/master/SkyWatcherWiFi.ino) file) to the the NodeMCU ESP8266 microcontroller.
 
 ## Circuit
 
