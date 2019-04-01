@@ -12,6 +12,8 @@ This adapter creates a WiFi network called "SynScan_WiFi_1234". I can connect my
 
 ![alt text](https://raw.githubusercontent.com/vlaate/SkyWatcherWiFi/master/Screenshot.jpg "SkyWatcher App")
 
+Note that the name "Virtuoso" was reported by the mount itself, not introduced by this adapter. Also note that no hand controller is needed for this project. 
+
 Goto works, including star alignment, tracking, etc. One thing that did not work with my Virtuoso mount are the arrow buttons (for manual movement). My Virtuoso mount comes with these buttons built-in, and even with the adapter+app, I have to use the hardware built-in buttons in the mount for manual movement, because the "virtual" buttons in the SynScan app didn't seem to work. Everything else for goto worked fine though.
 
 ## Parts List
@@ -37,3 +39,5 @@ The schematic for building this adapter is:
 ![alt text](https://raw.githubusercontent.com/vlaate/SkyWatcherWiFi/master/circuit.png "SkyWatcher WiFi")
 
 You *will* void your mount's warranty if you use this, so this circuit schematic is provided WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL I BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE CIRCUIT.
+
+You can ask questions or provide feedback [here](https://www.cloudynights.com/topic/656206-diy-wifi-adapter-for-skywatcher-telescope-mounts/).
