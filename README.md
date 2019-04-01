@@ -17,7 +17,7 @@ Goto works, including star alignment, tracking, etc. One thing that did not work
 ## Parts List
 
 * A Voltage regulator / Power Supply
-* A NodeMCU ESP8266 development board (I used is [this one](https://www.amazon.com/gp/product/B010O1G1ES)
+* A NodeMCU ESP8266 development board (I used is [this one](https://www.amazon.com/gp/product/B010O1G1ES) )
 * Three resistors (100 Ohm each). 
 
 Although the NodeMCU already comes with an internal Voltage regulator, in many models it does not support input voltages over 10V. For this reason, it's safer (to avoid damaging the NodeMCU) to use an external regulator to drop the VCC voltage from the mount (~12V) down to 5V (the typical Vin voltage the NodeMCU gets from the USB cable).
