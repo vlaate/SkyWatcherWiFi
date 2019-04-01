@@ -14,6 +14,8 @@ This adapter creates a WiFi network called "SynScan_WiFi_1234". I can connect my
 
 Goto works, including star alignment, tracking, etc. One thing that did not work with my Virtuoso mount are the arrow buttons (for manual movement). My Virtuoso mount comes these buttons built-in, and when I use the adapter I have to use the hardware built-in buttons in the mount for manual movement, the "virtual" buttons in the SynScan app didn't seem to work. Everything else for goto worked fine though.
 
+## Circuit
+
 The schematic for building this adapter is:
 
 ![alt text](https://raw.githubusercontent.com/vlaate/SkyWatcherWiFi/master/circuit.png "SkyWatcher WiFi")
