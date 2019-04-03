@@ -26,7 +26,7 @@ Although the NodeMCU already comes with an internal Voltage regulator, in many m
 
 The 7805 regulator shown in the schematic is a very basic power source, it works, but it will heat up, so it needs a sink for heat dissipation. I recommend instead using one of the better voltage regulators on the market that can take 12V as input and output 5V (like those meant for Arduinos). 
 
-Also, remember that after you install a voltage regulator to power the device from the mount's VCC (12V), you must avoid connecting any computer to the NodeMCU' USB port. You'll risk damaging the USB port of your computer. If you're having problems getting the adapter to work, and want to use the Arduino serial monitor to debug the issue, make sure to unplug the Vin pin from your voltage regulator, so that the NodeMCU is powered through USB only.
+Also, remember that after you install a voltage regulator to power the device from the mount's VCC (12V), you must avoid connecting any computer to the NodeMCU' USB port. You'll risk damaging the USB port of your computer. Also, because the project uses the TX and RX pins of the microcontroller to communicate with the mount, this means you have to upload the software to the ESP8266 first (while it's not connected to anything else but your USB cable), and once programmed, then you must unplug it from the USB cable/computer and then you can  plug it to the adapter circuits. If you're having problems getting the adapter to work, and want to re-program the microcontroller, unplug it completely from the adaptor circuit before you plug it to USB in order to re-flash it.
 
 The order of the RJ-11 pins from top to bottom corresponds to linear order of the bare copper contacts in the actual connector (the ones that will touch the RJ11 cable). Please double check that you have the pin order right, before building anything, measure the voltage between the VCC and GND pins to make sure you get **positive** 12V, as an iondicator that you indeed have the correct pins for VCC and GND, and that you got the pin order right. If you don't get positive ~12V, you probably have the pin order wrong.
 
@@ -36,7 +36,7 @@ You can probably get the parts for under USD$10, but you do need to be an arduin
 
 The schematic for building this adapter is:
 
-![alt text](https://raw.githubusercontent.com/vlaate/SkyWatcherWiFi/master/circuit.png "SkyWatcher WiFi")
+![alt text](https://raw.githubusercontent.com/vlaate/SkyWatcherWiFi/master/schematic.png "SkyWatcher WiFi")
 
 You *will* void your mount's warranty if you use this, so this circuit schematic is provided WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL I BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE CIRCUIT.
 
