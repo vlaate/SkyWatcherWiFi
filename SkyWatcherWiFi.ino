@@ -29,8 +29,8 @@
     
     ESP8266 pinout:
      GND:  To the GND pin of the RJ11 connector (and to GND of your chosen power source)
-     D7:   to a 50 Ohm resstor and then to the "TX" pin on the RJ11 connector
-     D8:   to a 100 Ohm resistor and then to the "RX" pin on the RJ11 connector
+     TX:   to a 50 Ohm resstor and then to the "TX" pin on the RJ11 connector
+     RX:   to a 100 Ohm resistor and then to the "RX" pin on the RJ11 connector
 
      When not connected to a computer via USB:
      Vin:  5V~9V from any power source (you can use a step down from 12V to ~5V to power the NodeMCU from most skywatcher mounts)
