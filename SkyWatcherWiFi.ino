@@ -22,9 +22,9 @@
     RJ11 Pinout:
         --- No Connection
         --- GND
-        --- "TX" to a 50 Ohm resistor and then to NodeMCU's pin D8 (GPIO_15)
+        --- "TX" to a 50 Ohm resistor and then to NodeMCU's pin TX
         --- VCC 12V (to a 5V drop-down volate regulator to power the NodeMCU thrugh it's Vin pin)
-        --- "RX" to a 100 Ohm resistor and then to NodeMCU's pin D7 (GPIO_13)
+        --- "RX" to a 100 Ohm resistor and then to NodeMCU's pin RX
         --- No Connection
     
     ESP8266 pinout:
